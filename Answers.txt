@@ -1,0 +1,90 @@
+* Visual Studio Code Installation:
+    1. Download VS Code by visiting the Visual Studio Code download page.
+    2. Click on the Windows download button to download the installer.
+    3. Run the Installer.
+    4. Follow the installation prompts.
+    5. Accept the license agreement.
+    6. Choose the destination folder.
+    7. Select additional tasks (e.g., creating a desktop icon, adding to the PATH).
+    8. Click the "Install" button.
+    9. Once the installation is complete, you can choose to launch Visual Studio Code immediately.
+    10. Launch VS Code.
+
+    Significant challenges: Picking the correct setup file.
+
+
+
+* Version Control Creation:
+    1. Download Git by visiting the Git for Windows download page.
+    2. Download the installer.
+    3. Locate the downloaded installer file and double-click it to run.
+    4. Follow the installation prompts, choosing the default options for most steps unless you have specific needs.
+    5. Open the Command Prompt or Git Bash.
+
+    Significant challenges: Linking git to my github account.
+
+
+
+* Python Installation:
+    1. Download Python by visiting the Python Downloads page.
+    2. Click on the download button for the latest Python release for Windows.
+    3. Locate the downloaded installer file and double-click it to run.
+    4. In the installer window, make sure to check the box that says "Add Python to PATH". 
+       This will add Python to your system environment variables, making it accessible from the command line.
+    5. Click "Install Now" and follow the prompts to complete the installation.
+    6. To verify the Installation, open Command Prompt, type python --version and press Enter to verify that Python is installed correctly.
+
+    Significant challenges: Adding python binaries to environment variables.
+
+
+
+* Python Package Manager (pip) Installation:
+    1. Verify Python installation by opening Command Prompt and typing:
+       python --version.
+
+    Note: pip is included with python 3.4 and later.
+
+    2. To Install pip, download get-pip.py and save it to a directory.
+    3. Open Command Prompt and navigate to the directory where you saved get-pip.py.
+    4. Run the following command:
+       python get-pip.py
+    5. After the installation completes, verify pip installation by typing:
+       pip --version
+    
+    Significant challenges: Understanding what pip is meant for.
+
+
+
+* MySQL Installation:
+    1. Download MySQL Installer by visiting the MySQL Downloads page.
+    2. Download the MySQL Installer for Windows.
+    3. Locate the downloaded installer file and double-click it to run.
+    4. Choose the setup type, "Developer Default" is a what I chose,
+       but you can choose "Server only" if you only need the MySQL server.
+    5. Choose the server configuration type (I chose Development Computer).
+    6. Set a strong root password.
+    7. Configure MySQL as a Windows Service (recommended).
+    8. Finish the installation and start the MySQL server.
+    9. To Verify the Installation:
+        Open Command Prompt.
+        Type mysql -u root -p and press Enter.
+        Enter the root password you set during installation to access the MySQL command-line tool.
+
+    Significant challenges: Starting and stopping MySQL Server.
+
+
+
+* IDE Extensions and Plugins:
+    The following are some of the pluins I have installed on VSCode:
+        1. Dart
+        2. Python
+        3. Flutter
+        4. Pylance
+        5. Prettier
+        6. Live Server
+        7. SQLTools
+        8. WSL
+        9. Python Debugger
+        10. Jupyter
+
+    Significant challenges: No significant challenges encountered.
